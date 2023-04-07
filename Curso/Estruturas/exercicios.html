@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//1
+var nomes = [
+            "Matheus",
+            "João",
+            "Pedro",
+            "Carlos",
+            "Maria",
+            "Joana",
+]
+
+var i = 0;
+           do {
+            console.log(nomes[i]);
+            i++
+           } while (i < nomes.length);
+            
+        
+
+
+// 2
+  
+function mostrar() {
+
+    for (let index = 0; index < nomes.length; index++) {
+        console.log(nomes[index])
+}
+    }
+    //para ver a função é necessário char fora do bloco de código
+    mostrar();
+    
+
+    //3
+  
+function lista(n) {
+    var i = 0;
+    while (i < n.length) {
+    console.log(n[i]);
+    i++        
+}
+}
+//se a função tiver parametro colocar junto quando for chamar a function
+lista(nomes);
+
+//4 criar uma função que faça 
+// a amostragem de qualquer mensagem mostrada pelo
+//prompt 
+var mensagem = prompt("Insira um número")
+function pesquisa(n)
+{
+   alert("Seu numero é " + n)
+}
+pesquisa(mensagem);
+    </script>
+</body>
+</html>
