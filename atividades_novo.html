@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1 FEITO
+/*
+var numero = prompt("Digite um numero para saber se é positivo, negativo, ou é zero");
+function posNegZero() {
+  
+
+if (numero > 0) {
+    alert("seu numero é positivo")
+
+
+}else if (numero < 0) {
+    alert("Seu numero é negativo")
+
+}else if (numero == 0) {
+    alert("Seu numero é igual a zero")
+    
+}
+}
+posNegZero();
+*/
+
+
+
+//2 FEITO
+/*
+    function tabuada(n){
+        n = a;
+  for(var count=1; count<=10 ; count++)
+   document.write(n, " x "+count+" = " + (n*count) + "<br />");
+       
+        }
+
+
+var a = prompt("digite um numero")
+    tabuada();
+    */
+
+
+//3 Feita
+/* 
+var fator = prompt("digite um nuemro para saber seu fatorial");
+function factorialize(numero) {
+ var fator = numero;
+var conta = numero;
+ for (var i = 1; i < fator; i++) {
+    conta *= i; 
+   document.write(conta + "<br />")
+    
+ }
+} factorialize(fator);
+
+*/
+
+//4 FEITA
+
+/*
+var escolha = parseInt (prompt("Escolha entre 1 = soma, 2 = subtração, 3 = multiplicação, 4 = divisão"))
+var num1 = parseInt(prompt("Digite o primeiro numero"))
+var num2 = parseInt(prompt("Digite o segundo numero"))
+function calculos(n) {
+        if (escolha == 1)
+        document.write("o resultado da soma dos dois numero é: ", num1 + num2);
+        else if (escolha == 2) {
+            document.write("O resultado da subtração dos dois números é: ", num1 - num2);
+        }
+        else if (escolha == 3) {
+            document.write("O resultado da multiplicação dos dois números é: ", num1 * num2);
+        }
+        else if (escolha == 4) {
+            document.write("O resultado da divisão dos dois números é: ", num1 / num2);
+        }
+        else 
+        document.write("Você não escolheu uma opção válida, recarregue a página e tente novamente")
+}
+calculos();
+*/
+
+
+5// FEITO
+/*
+var valor1 = parseFloat(prompt("digite o primeiro valor:"));
+var valor2 = parseFloat(prompt("Digite o segundo valor:"));
+function sequencia(n) {
+        if (valor1 > valor2) {
+            document.write(valor2," e ", valor1);
+        }
+    else{
+        document.write(valor1," e ", valor2)
+    }
+} sequencia();
+
+*/
+
+
+6// FEITO
+/*
+var valor1 = parseFloat(prompt("digite o primeiro valor:"));
+var valor2 = parseFloat(prompt("Digite o segundo valor:"));
+function sequencia(n) {
+        if (valor1 > valor2) {
+            document.write(valor1," é maior que ", valor2);
+        }
+    else{
+        document.write(valor1," é menor que ", valor2)
+    }
+} sequencia();
+*/
+
+7// FEITO
+/*
+var nota1 = parseFloat(prompt("digite a primeira nota: "));
+var nota2 = parseFloat(prompt("digite a segunda nota: "));
+var nota3 = parseFloat(prompt("Digite a terceira nota: "))
+function calculoNotas(n) {
+    var notas = [nota1, nota2, nota3]
+    calculo = ((nota1 + nota2 + nota3) / 3)
+    if (calculo >= 6) {
+        document.write("N1 = ", nota1, " | N2 = ", nota2," | N3 = ",nota3," | MG = ", (calculo.toFixed(2)), " [Aprovado]")
+    }
+    else{
+        document.write("N1 = ", nota1, " | N2 = ", nota2," | N3 = ",nota3," | MG = ", (calculo.toFixed(2)), " [REPROVADO]")
+    }
+} calculoNotas();
+*/
+
+
+8// FEITO
+/*
+var nome = prompt("Insira seu nome:")
+var idade = parseInt(prompt("Insira sua idade:"))
+
+function idadeNome(n) {
+    if (idade >= 18) {
+        document.write(nome," é maior de idade e tem ", idade," anos")
+    }
+    else
+    document.write(nome, " é menor de idade e tem ", idade," anos")
+}idadeNome();
+   */
+
+//9 FEITO
+
+/*
+var numero = parseInt (prompt("Digite um número para saber seu respectivo mês: "))
+function numMes(n) {
+    switch (numero) {
+        case 1:
+            alert("Janeiro")
+            break;
+        case 2:
+            alert("Fevereiro")
+            break;
+        case 3:
+            alert("Março")
+            break;
+        case 4: 
+            alert("Abril")       
+            break;
+        case 5:
+            alert("Maio")
+            break;
+        case 6:
+            alert("Junho")
+            break;
+        case 7:
+            alert("Julho")
+            break;
+        case 8:
+            alert("Agosto")
+            break;
+        case 9:
+            alert("Setembro")
+            break;
+        case 10:
+            alert("Outubro")
+            break;
+        case 11:
+            alert("Novembro")
+            break;
+        case 12:
+            alert("Dezembro")
+            break;    
+            
+        default:
+            alert("O número que você inseriu não corresponde a nenhum mês")
+            break;
+    }
+    
+}numMes();
+*/
+   </script>
+
+</body>
+</html>
